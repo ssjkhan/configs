@@ -1,0 +1,117 @@
+theme="kanabox_default"
+
+
+[editor.file-picker]
+hidden = false
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 80
+max-indent-retain = 0
+wrap-indicator = ""
+
+[editor]
+line-number = "relative"
+mouse = false
+completion-trigger-len = 3
+bufferline = "always"
+
+[editor.statusline]
+right = ["diagnostics", "workspace-diagnostics"]
+left =["mode", "spinner", "file-name", "position"]
+
+
+[editor.lsp]
+display-messages = false
+auto-signature-help = false
+display-signature-help-docs = false
+
+
+# Colemak-dh remapping WIP
+# colemak-dh homerow is neio vs hjkl
+# remap movement to neio and swap all functionality bindings with respective keys (i.e. all n -> h, all h-> n)
+
+# [keys.normal]
+# n = "move_char_left"
+# e = "move_char_right"
+# i = "move_line_down"
+# o = "move_line_up"
+
+# N = ""
+# E = "join_selections"
+# I = ""
+# O = ""
+
+# "C-n" = ""
+# "C-e" = ""
+# "C-i" = ""
+# "C-o" = ""
+
+# "A-n" = ""
+# "A-e" = ""
+# "A-i" = ""
+# "A-o" = ""
+
+# "C-N" = ""
+# "C-E" = ""
+# "C-I" = ""
+# "C-O" = ""
+
+# "A-N" = ""
+# "A-E" = ""
+# "A-I" = ""
+# "A-O" = ""
+
+# swap functionality with those characters replaced
+# h = "search_next"
+# j = "move_next_word_end"
+# k = "insert_mode"
+# l = "open_below"
+
+# H = "search_prev"
+# J = "move next_long_word_end"
+# K = "insert_at_line_start"
+# L = "open_above"
+
+# "C-h" = ""
+# "C-j" = ""
+# "C-k" = "jump_forward"
+# "C-l" = ""
+
+
+# "A-h" = "select_next_sibling"
+# "A-j" = ""
+# "A-k" = ""
+# "A-l" = ""
+
+# "C-H" = ""
+# "C-J" = ""
+# "C-K"= ""
+# "C-L" = ""
+
+# "A-H" = ""
+# "A-J" = ""
+# "A-K" = ""
+# "A-L" = ""
+
+# Window mode remapping
+#[keys.normal.space]
+
+#View mode remapping
+# [keys.normal.z]
+# e = "scroll_down"
+# i = "scroll_up"
+
+#View mode remapping
+# [keys.normal.]
+# e = "scroll_down"
+# i = "scroll_up"
+#View mode remapping
+#[keys.normal.Z]
+
+# [keys.insert]
+# update deletion keys
+# "C-n" = ""
+# "C-e" = "kill_to_line_start"
+# "C-i" = "kill_to_line_end"
+# "C-o" = ""
